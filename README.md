@@ -1,7 +1,7 @@
 # react-native-checkbox
 Checkbox component for React native
 
-## Installation:
+##Installation:
 
 Install the component through npm using:
 
@@ -10,7 +10,7 @@ npm install react-native-checkbox --save
 ```
 
 
-## Example:
+##Example:
 ```js
 import CheckBox from 'react-native-checkbox';
 
@@ -21,7 +21,7 @@ import CheckBox from 'react-native-checkbox';
 />
 ```
 
-## Props:
+##Props:
 
 
 - `label` : text that will be displayed along the checkbox
@@ -37,3 +37,6 @@ value is false
 - `containerStyle` : style object that will be applied to the
   container
 - `underlayColor` : style the touchable component underlay color
+- `accessible` : indicates whether view is an accessible element
+- `accessibilityLabel` : maps to content description / label for Android automation
+- `testID` : maps to id / name for iOS automation
